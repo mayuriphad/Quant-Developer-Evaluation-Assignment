@@ -445,7 +445,7 @@ Created for Gemscap Quant Developer Evaluation Assignment
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: December 2024  
+**Last Updated**: December 2025  
 **Status**: Production-ready prototype
 
 **Questions?** Check the troubleshooting section or open an issue.
