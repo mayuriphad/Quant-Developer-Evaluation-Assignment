@@ -39,7 +39,6 @@ It is designed as a **modular, extensible, and production-ready prototype** suit
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
 
 Below are sample screenshots captured from the live system during execution.
 
@@ -130,15 +129,18 @@ statistical-arbitrage-system/
 ---
 
 ## 🚀 Quick Start
+1️⃣ Clone the Repository
+git clone https://github.com/mayuriphad/Quant-Developer-Evaluation-Assignment.git
+cd Quant-Developer-Evaluation-Assignment
 
-### Prerequisites
+2️⃣ Prerequisites
 
 * Python **3.9+**
 * pip
 * Internet connection
 * 2GB free disk space
 
-### Installation
+3️⃣ Installation
 
 ```bash
 python -m venv venv
