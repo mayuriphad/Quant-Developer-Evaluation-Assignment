@@ -46,18 +46,18 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 " + config['dashboard']['title'])
+st.title(" " + config['dashboard']['title'])
 st.caption("Real-time cryptocurrency pairs trading analytics powered by Binance WebSocket")
 
 # =====================================================
 # SIDEBAR CONTROLS
 # =====================================================
-st.sidebar.header("⚙️ Controls")
+st.sidebar.header("Strategy Control Panel")
 
 # Symbol pair selection
 pair_options = [f"{y}/{x}" for y, x in SYMBOL_PAIRS]
 selected_pair_str = st.sidebar.selectbox(
-    "Symbol Pair",
+    "Trading Pair Selector",
     options=pair_options,
     index=0
 )
@@ -65,7 +65,7 @@ pair_y, pair_x = selected_pair_str.split('/')
 
 # Timeframe selection
 selected_timeframe = st.sidebar.selectbox(
-    "Timeframe",
+    "Sampling Interval",
     options=TIMEFRAMES,
     index=1
 )
@@ -80,9 +80,9 @@ z_alert = st.sidebar.slider(
 )
 
 # Display options
-show_volume = st.sidebar.checkbox("Show Volume", value=True)
-show_backtest = st.sidebar.checkbox("Show Backtest", value=True)
-show_stats_table = st.sidebar.checkbox("Show Statistics Table", value=True)
+show_volume = st.sidebar.checkbox("Overlay Volume", value=True)
+show_backtest = st.sidebar.checkbox("Enable Backtest View", value=True)
+show_stats_table = st.sidebar.checkbox("Show Statistical Summary", value=True)
 
 # Auto refresh
 auto_refresh = st.sidebar.checkbox("Auto Refresh", value=True)
