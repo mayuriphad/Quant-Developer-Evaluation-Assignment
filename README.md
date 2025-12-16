@@ -39,16 +39,33 @@ It is designed as a **modular, extensible, and production-ready prototype** suit
 
 ## 📸 Screenshots
 
-Below are sample screenshots captured from the live system during execution. All images are available in the `assets/` directory.
+## 📸 Screenshots
 
-* `assets/dashboard.png`
-* `assets/alert.jpeg`
-* `assets/Hedge Ratio Evolution.jpeg`
-* `assets/Export Data.jpeg`
-* `assets/Mean reversion strategy backtest.jpeg`
-* `assets/Raw analytics data.jpeg`
-* `assets/Summary statistics.jpeg`
-* `assets/volatility analysis.jpeg`
+Below are sample screenshots captured from the live system during execution.
+
+### Dashboard Overview
+![Dashboard](assets/dashboard.png)
+
+### Alert Trigger
+![Alert](assets/alert.jpeg)
+
+### Hedge Ratio Evolution
+![Hedge Ratio Evolution](assets/Hedge%20Ratio%20Evolution.jpeg)
+
+### Export Data
+![Export Data](assets/Export%20Data.jpeg)
+
+### Mean Reversion Strategy Backtest
+![Backtest](assets/Mean%20reversion%20strategy%20backtest.jpeg)
+
+### Raw Analytics Data
+![Raw Data](assets/Raw%20analytics%20data.jpeg)
+
+### Summary Statistics
+![Summary Statistics](assets/Summary%20statistics.jpeg)
+
+### Volatility Analysis
+![Volatility Analysis](assets/volatility%20analysis.jpeg)
 
 ---
 
