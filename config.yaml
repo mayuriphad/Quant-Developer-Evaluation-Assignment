@@ -1,0 +1,45 @@
+# Gemscap Statistical Arbitrage System Configuration
+
+database:
+  path: "storage/market.db"
+
+symbols:
+  pairs:
+    - [ETHUSDT, BTCUSDT]
+    - [BNBUSDT, BTCUSDT]
+    - [SOLUSDT, ETHUSDT]
+
+websocket:
+  url: "wss://stream.binance.com:9443/ws"
+  ping_interval: 20
+  reconnect_delay: 5
+
+analytics:
+  timeframes: ["1s", "1min", "5min"]
+  rolling_windows:
+    zscore: 30
+    correlation: 60
+    volatility: 20
+  lookback_minutes: 60
+  update_interval: 1.0
+  batch_size: 10
+
+alerts:
+  default_zscore_threshold: 2.0
+  notification_methods:
+    - console
+    - file
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+dashboard:
+  title: "Gemscap Statistical Arbitrage Dashboard"
+  refresh_interval: 1
+  max_display_points: 500
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/app.log"
