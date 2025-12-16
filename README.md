@@ -23,13 +23,16 @@ This system ingests live tick data from Binance WebSocket, performs sophisticate
 
 ### Dashboard
 
-Below are the primary dashboard screenshots (place these images in the `assets/` folder):
-
 (assets/dashboard.png)
-(assets/Price charts.jpeg)
-- **Z-Score & Alerts**: ![Z-Score Alerts](assets/alert.jpeg)
-- **Backtest Results**: ![Backtest Results](assets/backtest_results.png)
-
+(assets/dashboard.png)
+(assets/alert.jpeg)
+(assets\Hedge Ratio Evolution.jpeg)
+(assets\Export Data.jpeg)
+(assets\Mean reversion strategy backtest.jpeg)
+(assets\Mean reversion strategy backtest.jpeg)
+(assets\Raw analytics data.jpeg)
+(assets\Summary statistics.jpeg)
+(assets\volatility analysis.jpeg)
 
 ### Advanced Features
 - **Mean Reversion Backtest**: Configurable entry/exit strategy with P&L tracking
