@@ -25,8 +25,8 @@ This system ingests live tick data from Binance WebSocket, performs sophisticate
 
 Below are the primary dashboard screenshots (place these images in the `assets/` folder):
 
-- **Overview**: ![Dashboard Overview](assets/dashboard_overview.png)
-- **Price & Spread**: ![Price and Spread](assets/price_spread.png)
+- **Overview**: ![Dashboard Overview](assets/dashboard.png)
+- **Price & Spread**: ![Price and Spread](assets/price charts.png)
 - **Z-Score & Alerts**: ![Z-Score Alerts](assets/zscore_alerts.png)
 - **Backtest Results**: ![Backtest Results](assets/backtest_results.png)
 
