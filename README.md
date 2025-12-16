@@ -19,6 +19,35 @@ This system ingests live tick data from Binance WebSocket, performs sophisticate
 - **Volatility Metrics**: Annualized volatility calculation
 - **Volume Analysis**: Trading volume patterns
 
+## 📸 Screenshots
+
+### Dashboard
+
+Below are the primary dashboard screenshots (place these images in the `assets/` folder):
+
+- **Overview**: ![Dashboard Overview](assets/dashboard_overview.png)
+- **Price & Spread**: ![Price and Spread](assets/price_spread.png)
+- **Z-Score & Alerts**: ![Z-Score Alerts](assets/zscore_alerts.png)
+- **Backtest Results**: ![Backtest Results](assets/backtest_results.png)
+
+### Other Components / Functionality
+
+- **WebSocket Ingestion (Live Ticks)**: ![Ingestion WS](assets/ingestion_ws.png)
+  - Caption: Live tick ingestion and batching to SQLite.
+- **Analytics Engine (Processing)**: ![Engine Metrics](assets/engine_metrics.png)
+  - Caption: Multi-timeframe resampling and analytics computations.
+- **API Endpoints / Explorer**: ![API Endpoints](assets/api_endpoints.png)
+  - Caption: FastAPI routes and CSV/JSON export UI.
+- **Database Schema / Storage**: ![Database Schema](assets/database_schema.png)
+  - Caption: `market.db` structure: `ticks`, `analytics`, and metadata tables.
+
+> Note: No image files were found in the repository when this README was updated. Add your actual screenshot files to the `assets/` folder using the filenames above (for example `assets/dashboard_overview.png`).
+
+If you'd like, I can also:
+
+- Move provided images into `assets/` and update the README with their exact filenames.
+- Generate simple sample images (placeholders) and commit them for preview.
+
 ### Advanced Features
 - **Mean Reversion Backtest**: Configurable entry/exit strategy with P&L tracking
 - **Multi-Pair Comparison**: Visual comparison of z-scores across pairs
