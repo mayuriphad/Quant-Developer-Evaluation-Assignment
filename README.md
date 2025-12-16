@@ -131,6 +131,7 @@ statistical-arbitrage-system/
 ## 🚀 Quick Start
 1️⃣ Clone the Repository
 git clone https://github.com/mayuriphad/Quant-Developer-Evaluation-Assignment.git
+
 cd Quant-Developer-Evaluation-Assignment
 
 2️⃣ Prerequisites
